@@ -26,6 +26,10 @@ npm i
 
 如果你有 bug 反馈或其他任何建议，欢迎提 issue 给我们。
 
+## CI
+
+CI 工作流在 Pull Request 和推送到 `main` 时运行，验证 `app.json` 和 `package.json` 是否是有效 JSON，并使用 Prettier 检查代码格式。
+
 ## 截图
 
 <img src="assets/images/screen.jpg" width="375" />
