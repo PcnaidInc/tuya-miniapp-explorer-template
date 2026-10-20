@@ -3,7 +3,7 @@
   "version": "1.2.1",
   "description": "Smart miniprogram official sample application",
   "scripts": {
-    "format": "prettier ./pages/**/**/*.{tyml,tyss,js,ts,rjs,json} --write"
+    "format": "prettier ./pages/**/**/*.{tyml,tyss,js,rjs,json} --write"
   },
   "devDependencies": {
     "prettier": "^3.2.5"

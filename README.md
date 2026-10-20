@@ -24,6 +24,10 @@ For more information about the framework, components, APIs, and tutorials, see [
 
 If you have any problems or suggestions, submit a ticket to request technical support.
 
+## CI
+
+The CI workflow runs on pull requests and pushes to `main`. It checks that `app.json` and `package.json` are valid JSON and verifies code formatting with Prettier.
+
 ## Preview
 
 <img src="assets/images/screen.jpg" width="220" />
