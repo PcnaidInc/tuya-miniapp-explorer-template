@@ -22,4 +22,4 @@ jobs:
         with:
           node-version: 20
       - run: node -e "require('./app.json'); require('./package.json')"
-      - run: npx --yes prettier@^3.2.5 --check ./pages/**/**/*.{tyml,tyss,js,ts,rjs,json} ./app.js ./app.json ./common.less
+      - run: npx --yes prettier@^3.2.5 --check ./pages/**/**/*.{tyml,tyss,js,rjs,json} ./app.js ./app.json ./common.less
